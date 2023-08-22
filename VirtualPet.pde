@@ -1,4 +1,9 @@
+void setup();
+{
 size(400,400);
+}
+void draw();
+{
 background(#ffffff);
 //feet
 noStroke();
@@ -30,3 +35,4 @@ ellipse(200, 230, 20, 10);
 fill(#de739e);
 ellipse(130, 220, 50, 25);
 ellipse(270, 220, 50, 25);
+}
